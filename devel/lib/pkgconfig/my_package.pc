@@ -1,0 +1,8 @@
+prefix=/home/seeky/download/sync_ros/sync_topic/devel
+
+Name: my_package
+Description: Description of my_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs message_filters

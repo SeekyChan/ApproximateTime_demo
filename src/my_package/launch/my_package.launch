@@ -1,0 +1,16 @@
+<!-- self_velocity_node/launch/self_velocity.launch -->
+
+<launch>
+
+    <!-- Start the distortion_correction -->
+    <node pkg="my_package" type="time_01_node" name="time_01_node" output="screen">
+    </node>
+
+    <node pkg="my_package" type="time_02_node" name="time_02_node" output="screen">
+    </node>
+
+    <node pkg="my_package" type="sync_node" name="sync_node" output="screen">
+    </node>
+
+
+</launch>

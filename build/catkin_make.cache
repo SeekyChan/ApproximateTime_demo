@@ -1,0 +1,2 @@
+my_package
+-DCATKIN_DEVEL_PREFIX=/home/seeky/download/sync_ros/sync_topic/devel -DCMAKE_INSTALL_PREFIX=/home/seeky/download/sync_ros/sync_topic/install -G Unix Makefiles
